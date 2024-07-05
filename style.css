@@ -1,0 +1,339 @@
+* {
+  font-family: "Source Sans 3", sans-serif;
+}
+body {
+  margin: auto;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+}
+header {
+  width: 100%;
+}
+
+nav {
+  position: absolute;
+  top: 0px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.nav-links {
+  display: flex;
+  gap: 53px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links li {
+  list-style-type: none;
+}
+.hero-section {
+  background-image: url(./images/Object.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-section-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 180px;
+  color: #fff;
+  margin-bottom: 150px;
+}
+
+.hero-section-titles h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.hero-title-items {
+  display: flex;
+  gap: 60px;
+  margin-top: -40px;
+}
+
+.hero-title-items span {
+  font-weight: 800;
+}
+.hero-cta {
+  padding: 12px 20px;
+  background: #c271ff;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+  gap: 149px;
+  color: #fff;
+  margin: -2% 10% -32%;
+  padding-bottom: 100px;
+}
+
+.avatar {
+  color: #fff;
+  margin: -10px 0px;
+  margin: -1% -5% -10%;
+}
+.massey {
+  color: #fff;
+  font-size: 13px;
+  margin: -20% 15% 1%;
+}
+.mass {
+  color: #e4dede;
+  margin: -11% 10% 10%;
+  font-size: 12px;
+}
+.smile {
+  color: #fff;
+  margin: -10% -10% -10%;
+  font-size: 12px;
+}
+.friend {
+  color: #e4dede;
+  margin: -8% 10% 10%;
+  font-size: 12px;
+}
+.bruce {
+  margin: 8% 20% 10%;
+  font-size: 14px;
+}
+
+.henry {
+  margin: 1% 21% 10%;
+  font-size: 14px;
+}
+
+.winner {
+  color: #e4dede;
+  margin: -8% 10% 10%;
+  font-size: 12px;
+}
+
+.year {
+  color: #e4dede;
+  margin: -20% 20% 10%;
+  font-size: 12px;
+}
+.years {
+  color: #e4dede;
+  margin: -20% 30% 10%;
+  font-size: 12px;
+}
+.yea {
+  margin: -15% 20% 10%;
+  font-size: 12px;
+}
+
+.pm {
+  margin: -0% 10% 10%;
+}
+.nannie {
+  font-size: 13px;
+  margin: -6% 5% 0%;
+}
+
+.feedback-section {
+  background-color: #c271ff;
+  display: flex;
+  justify-content: space-between;
+  margin: 24% 0% 5%;
+}
+.picture {
+  display: flex;
+  margin: 20% -20% 10%;
+}
+.tutorial {
+  color: #fff;
+  margin-left: 100px;
+  margin-top: -30%;
+  margin-bottom: 100px;
+}
+.tutor {
+  color: #fff;
+  margin-left: 100px;
+  margin-top: -10%;
+  margin-bottom: 100px;
+}
+.weather {
+  color: #decfe9;
+  margin-top: -15px;
+}
+
+.popular-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tutorials-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0% 10%;
+  font-size: 13px;
+  gap: 31px;
+}
+.members-section {
+  background-color: #071629;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 502px;
+}
+
+.sit {
+  font-size: 14px;
+}
+
+.ipsum-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 53px;
+}
+.hd {
+  text-align: center;
+  margin: 0% 10% 5%;
+}
+
+footer {
+  background-color: #071629;
+  padding: 90px 0 40px 0;
+  color: #fff;
+}
+
+.footer-a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brands {
+  display: flex;
+  gap: 20px;
+}
+
+.school {
+  text-align: center;
+  margin-top: 70px;
+  color: #263343;
+}
+
+.free {
+  color: #fff;
+  background-color: #c271ff;
+  border-radius: 100px;
+  border: none;
+  width: 100%;
+  margin-bottom: 50px;
+  font-size: 13px;
+  text-shadow: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.lorem-section {
+  margin-top: 100px 0px;
+  margin: 0% 10% -35%;
+}
+.lorem-section-a {
+  font-size: 14px;
+  margin: 0% 10% 10%;
+}
+
+.lorem-section-b {
+  display: flex;
+  justify-content: flex-end;
+  margin: -41.2% 15% 10%;
+  font-size: 14px;
+}
+
+.lorem {
+  color: rgb(73, 70, 70);
+  padding: 0px 450px;
+  font-size: 50px;
+}
+
+.lorem h2 {
+  font-weight: 200;
+}
+
+.how {
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+}
+
+.text {
+  color: rgb(110, 110, 165);
+}
+
+.phili {
+  width: 10%;
+}
+.phili-a {
+  color: #c271ff;
+  font-size: 14px;
+  margin: -10% 15% 0%;
+}
+.star {
+  display: flex;
+  flex-direction: row;
+  color: #c271ff;
+  margin: 5% 0% 0%;
+}
+
+.time {
+  color: #c271ff;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: -6% 10% 0%;
+}
+.pop {
+  color: #c271ff;
+  font-weight: 700;
+}
+.tut {
+  font-optical-sizing: auto;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.f-m {
+  color: #c271ff;
+}
+
+.mg {
+  display: flex;
+  align-items: flex-end;
+  color: white;
+}
+
+.schooled {
+  text-align: center;
+  margin-bottom: 90px;
+  color: #fff;
+}
+
+.schooled h2 {
+  font-weight: 200;
+}
+
+.learn {
+  color: #c271ff;
+  font-weight: 700;
+}
